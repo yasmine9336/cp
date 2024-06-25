@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+  }
+  
+  .cart {
+    width: 300px;
+    margin: 0 auto;
+    border: 1px solid #000000;
+    padding: 10px;
+    background-color: #e287bc;
+  }
+  
+  .items-list {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  
+  .item-info {
+    flex-grow: 1;
+  }
+  
+  .item-actions {
+    display: flex;
+    align-items: center;
+  }
+  
+  .quantity {
+    margin: 0 10px;
+  }
+  
+  .delete-btn {
+    color: red;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  .like-btn {
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  .like-btn.active {
+    color: red;
+  }
+  
+  .total {
+    text-align: right;
+    margin-top: 10px;
+  }  
